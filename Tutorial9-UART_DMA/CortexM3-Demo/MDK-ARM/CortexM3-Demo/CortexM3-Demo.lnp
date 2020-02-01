@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"cortexm3-demo\startup_stm32f103xb.o"
+"cortexm3-demo\main.o"
+"cortexm3-demo\stm32f1xx_it.o"
+"cortexm3-demo\stm32f1xx_hal_msp.o"
+"cortexm3-demo\system_stm32f1xx.o"
+"cortexm3-demo\stm32f1xx_hal_gpio_ex.o"
+"cortexm3-demo\stm32f1xx_hal_tim.o"
+"cortexm3-demo\stm32f1xx_hal_tim_ex.o"
+"cortexm3-demo\stm32f1xx_hal_uart.o"
+"cortexm3-demo\stm32f1xx_hal.o"
+"cortexm3-demo\stm32f1xx_hal_rcc.o"
+"cortexm3-demo\stm32f1xx_hal_rcc_ex.o"
+"cortexm3-demo\stm32f1xx_hal_gpio.o"
+"cortexm3-demo\stm32f1xx_hal_dma.o"
+"cortexm3-demo\stm32f1xx_hal_cortex.o"
+"cortexm3-demo\stm32f1xx_hal_pwr.o"
+"cortexm3-demo\stm32f1xx_hal_flash.o"
+"cortexm3-demo\stm32f1xx_hal_flash_ex.o"
+"cortexm3-demo\stm32f1xx_hal_exti.o"
+--library_type=microlib --strict --scatter "CortexM3-Demo\CortexM3-Demo.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "CortexM3-Demo.map" -o CortexM3-Demo\CortexM3-Demo.axf
