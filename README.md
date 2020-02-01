@@ -7,6 +7,7 @@ Here is a list of demo programs of individual pheripherals:
 4) Independet watchdog
 5) Pulse Width Module Generation with TIMER
 6) Reading multiple channels of ADC with DMA
+7) Serial Plotter with UART messages
 7) TIMER interrupt
 8) USART with DMA receive interrupt
 9) Redirect USART Transmit with printf
