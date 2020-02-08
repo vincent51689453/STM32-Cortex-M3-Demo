@@ -8,6 +8,8 @@ Here is a list of demo programs of individual pheripherals:
 5) Pulse Width Module Generation with TIMER
 6) Reading multiple channels of ADC with DMA
 7) Serial Plotter with UART messages
-7) TIMER interrupt
-8) USART with DMA receive interrupt
-9) Redirect USART Transmit with printf
+8) TIMER interrupt
+9) USART with DMA receive interrupt
+10) Redirect USART Transmit with printf
+
+All programs are tested with Nucleo-64 STM32F103RBT6.
