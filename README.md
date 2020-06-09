@@ -1,6 +1,7 @@
 # STM32-Cortex-M3-Demo
-Here is a list of demo programs of individual pheripherals:
+This series of demo program are achieved by STM32CUBMX and Keil uVision. 
 
+The followings are the contents of those demo program:
 1) Basic GPIO
 2) Basic GPIO with external interrupt
 3) USART with receive interrupt
